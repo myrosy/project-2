@@ -1,1 +1,54 @@
 @import url(reset.css);
+
+body {
+	background: url(../images/main_bg.png);
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 204px;
+	height: 136px;
+	float: left;
+	margin-left: -2px;
+}
+
+#menu {
+	width: 960px;
+	height: 70px;
+	background: url(../images/menu.png) no-repeat;
+}
+
+#menu ul {
+	padding-left: 40px;
+	padding-top: 23px;
+	overflow: hidden;
+}
+
+#menu ul li {
+	font: bold 18px Arial, Verdana, sans-serif;
+	float: left;
+	color: #fff;
+	margin-right: 70px;
+}
+
+#menu ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul li span {
+	color: #db1c06;
+}
+
+#menu .current, #menu ul li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+#menu .phone {
+	float: right;
+	margin-right: 30px;
+}
