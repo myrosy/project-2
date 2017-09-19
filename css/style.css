@@ -2,11 +2,37 @@
 
 body {
 	background: url(../images/main_bg.png);
+	font: 14px/1.5 Arial, Verdana, sans-serif;
+	color: #353535;
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a {
+	color: #383838;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
+}
+
+header {
+	overflow: hidden;
 }
 
 #logo {
@@ -24,7 +50,7 @@ body {
 
 #menu ul {
 	padding-left: 40px;
-	padding-top: 23px;
+	padding-top: 25px;
 	overflow: hidden;
 }
 
@@ -37,18 +63,86 @@ body {
 
 #menu ul li a {
 	color: #fff;
+	display: block;
+	line-height: 1;
+}
+
+#menu ul li a:hover, #menu .current {
 	text-decoration: none;
+	border-bottom: 2px solid #fff;
 }
 
 #menu ul li span {
 	color: #db1c06;
 }
 
-#menu .current, #menu ul li a:hover {
-	border-bottom: 2px solid #fff;
-}
-
 #menu .phone {
 	float: right;
 	margin-right: 30px;
+	line-height: 1;
+}
+
+.divider {
+	width: 552px;
+	height: 33px;
+	background: url(../images/divider.png) no-repeat;
+	margin: 4px auto 28px auto;
+}
+
+#content {
+	width: 590px;
+	margin: 0 auto;
+}
+
+.red_hl {
+	font-size: 30px;
+	font-weight: bold;
+	color: #8a3434;
+	margin-top: 28px;
+}
+
+#social {
+	width: 300px;
+	margin: 15px auto 7px;
+}
+
+#social li {
+	text-align: left;
+	height: 39px;
+	padding-left: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#social li a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#fb {
+	background: url(../images/fb.png) no-repeat;
+}
+
+#tw {
+	background: url(../images/tw.png) no-repeat;
+}
+
+#rss {
+	background: url(../images/rss.png) no-repeat;
+}
+
+#dr {
+	background: url(../images/dr.png) no-repeat;
+}
+
+#li {
+	background: url(../images/li.png) no-repeat;
+}
+
+footer {
+	padding-bottom:25px;
+}
+
+footer p {
+	color: #8a3434;
 }
